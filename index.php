@@ -1,7 +1,6 @@
-<php
-include("../php/check.php");
+<?php
+	include '../php/check.php';
 ?>
-<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -34,7 +33,8 @@ function GameDetails( servername, serverurl, mapname, maxplayers, steamid, gamem
 	<div id="myBar"></div>
 </div>
 		<div id="status" class="textkray">Загружаем файлы</div>
-				<div class="textdetails"> Карта: <php echo $infoo["map"] ?></div>
+			<div class="textdetails"><?php echo 'Карта: '.$infor1["map"]; ?>
+			</div>
 
 	</body>
 </html>

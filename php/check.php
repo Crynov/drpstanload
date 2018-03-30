@@ -1,8 +1,7 @@
 <?php
 require("srcsrv.php");
 
-$ipo = "46.174.54.245:9999";
-$servero = new SrcSrv($ipo);
-$infoo = $servero->Info();
-
+$ipr1 = "46.174.54.245:9999";
+$serverr1 = new SrcSrv($ipr1);
+$infor1 = $serverr1->Info();
 ?>
